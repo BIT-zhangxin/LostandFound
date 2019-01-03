@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="@dimen/input_margin"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/head_portrait"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line"
+        android:background="@color/tv_gray_normal" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/iv_information_information"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_information"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/login_account"/>
+
+        <TextView
+            android:id="@+id/tv_information_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/information_information"
+            android:textSize="@dimen/text_size_title"
+            android:textColor="@color/style"
+            android:layout_toEndOf="@id/iv_information_information"
+            android:layout_marginStart="20dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/tv_gray_normal"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/iv_information_modify"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_modify"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/login_account"/>
+
+        <TextView
+            android:id="@+id/tv_information_modify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/information_modify"
+            android:textSize="@dimen/text_size_title"
+            android:textColor="@color/style"
+            android:layout_toEndOf="@id/iv_information_modify"
+            android:layout_marginStart="20dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/tv_gray_normal"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/iv_information_security"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_security"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/login_account"/>
+
+        <TextView
+            android:id="@+id/tv_information_security"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/information_security"
+            android:textSize="@dimen/text_size_title"
+            android:textColor="@color/style"
+            android:layout_toEndOf="@id/iv_information_security"
+            android:layout_marginStart="20dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/tv_gray_normal"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/iv_information_publish"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_publish"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/login_account"/>
+
+        <TextView
+            android:id="@+id/tv_information_publish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/information_publish"
+            android:textSize="@dimen/text_size_title"
+            android:textColor="@color/style"
+            android:layout_toEndOf="@id/iv_information_publish"
+            android:layout_marginStart="20dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/tv_gray_normal"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/iv_information_event"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_event"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/login_account"/>
+
+        <TextView
+            android:id="@+id/tv_information_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/information_event"
+            android:textSize="@dimen/text_size_title"
+            android:textColor="@color/style"
+            android:layout_toEndOf="@id/iv_information_event"
+            android:layout_marginStart="20dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/tv_gray_normal"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_marginTop="10dp">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/iv_information_report"-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:src="@drawable/ic_report"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:contentDescription="@string/login_account"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_information_report"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/information_report"-->
+            <!--android:textSize="@dimen/text_size_title"-->
+            <!--android:textColor="@color/style"-->
+            <!--android:layout_toEndOf="@id/iv_information_report"-->
+            <!--android:layout_marginStart="20dp"/>-->
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/line"-->
+            <!--android:background="@color/tv_gray_normal"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--/>-->
+
+    <!--</RelativeLayout>-->
+
+</LinearLayout>

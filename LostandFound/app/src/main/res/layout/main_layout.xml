@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tv_main_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title"
+        android:background="@color/style"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_title" />
+
+    <FrameLayout
+        android:id="@+id/main_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_main_title"
+        android:layout_above="@id/line_menu">
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/line_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/style" />
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:itemIconTint="@color/selector_main_icon"
+            app:itemTextColor="@color/selector_main_icon"
+            app:menu="@menu/navigation" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

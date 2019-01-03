@@ -1,0 +1,13 @@
+USE `LostandFound`;
+CREATE TABLE `object` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(20) NOT NULL,
+	`time` VARCHAR(50) NULL DEFAULT NULL,
+	`location` VARCHAR(50) NULL DEFAULT NULL,
+	`description` VARCHAR(100) NULL DEFAULT NULL,
+	`picture` BINARY(1) NULL DEFAULT NULL,
+	PRIMARY KEY (`id`)
+)
+COLLATE='utf8_general_ci'
+ENGINE=InnoDB
+;

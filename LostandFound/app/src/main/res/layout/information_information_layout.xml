@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/information_information_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title"
+        android:gravity="center"
+        android:background="@color/style"
+        android:text="@string/information_information_title"
+        android:textSize="@dimen/text_size_title"
+        android:textColor="@color/white" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_info_info_photo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="@dimen/input_margin"
+        android:layout_marginBottom="30dp"
+        android:layout_below="@id/information_information_title"
+        android:src="@drawable/head_portrait"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line"
+        android:background="@color/tv_gray_normal"
+        android:layout_below="@id/iv_info_info_photo"/>
+
+    <TextView
+        android:id="@+id/tv_info_info_nickname_hint"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:text="@string/information_information_nickname_hint"
+        android:layout_below="@id/iv_info_info_photo"/>
+
+    <TextView
+        android:id="@+id/tv_info_info_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:layout_below="@id/iv_info_info_photo"
+        android:layout_toEndOf="@id/tv_info_info_nickname_hint"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line"
+        android:background="@color/tv_gray_normal"
+        android:layout_below="@id/tv_info_info_nickname"/>
+
+    <TextView
+        android:id="@+id/tv_info_info_id_hint"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:text="@string/information_information_id_hint"
+        android:layout_below="@id/tv_info_info_nickname"/>
+
+    <TextView
+        android:id="@+id/tv_info_info_id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:layout_below="@id/tv_info_info_nickname"
+        android:layout_toEndOf="@id/tv_info_info_id_hint"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line"
+        android:background="@color/tv_gray_normal"
+        android:layout_below="@id/tv_info_info_id"/>
+
+    <TextView
+        android:id="@+id/tv_info_info_phone_number_hint"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:text="@string/information_information_phone_number_hint"
+        android:layout_below="@id/tv_info_info_id"/>
+
+    <TextView
+        android:id="@+id/tv_info_info_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:layout_toEndOf="@id/tv_info_info_phone_number_hint"
+        android:layout_below="@id/tv_info_info_id"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line"
+        android:background="@color/tv_gray_normal"
+        android:layout_below="@id/tv_info_info_phone_number"/>
+
+    <TextView
+        android:id="@+id/tv_info_info_contact_information_hint"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:text="@string/information_information_contact_information_hint"
+        android:layout_below="@id/tv_info_info_phone_number"/>
+
+    <TextView
+        android:id="@+id/tv_info_info_contact_information"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:layout_toEndOf="@id/tv_info_info_contact_information_hint"
+        android:layout_below="@id/tv_info_info_phone_number"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line"
+        android:background="@color/tv_gray_normal"
+        android:layout_below="@id/tv_info_info_contact_information"/>
+
+    <TextView
+        android:id="@+id/tv_info_info_credit_score_hint"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:text="@string/information_information_credit_score_hint"
+        android:layout_below="@id/tv_info_info_contact_information"/>
+
+    <TextView
+        android:id="@+id/tv_info_info_credit_score"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:layout_toEndOf="@id/tv_info_info_credit_score_hint"
+        android:layout_below="@id/tv_info_info_contact_information"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line"
+        android:background="@color/tv_gray_normal"
+        android:layout_below="@id/tv_info_info_credit_score"/>
+
+</RelativeLayout>

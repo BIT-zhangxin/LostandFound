@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/object_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title"
+        android:gravity="center"
+        android:background="@color/style"
+        android:text="@string/object_title"
+        android:textSize="@dimen/text_size_title"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/iv_object_object"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="@string/unknown"
+        android:src="@drawable/default_picture"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/tv_object_name"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_object_main_event_type"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_object_location"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_object_time"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_object_description"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_object_apply"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/margin_small"
+            android:paddingBottom="@dimen/margin_small"
+            android:text="@string/object_apply"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_object_report"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/margin_small"
+            android:paddingBottom="@dimen/margin_small"
+            android:text="@string/object_report"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

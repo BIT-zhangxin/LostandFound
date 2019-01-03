@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_security_choose_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title"
+        android:background="@color/style"
+        android:gravity="center"
+        android:text="@string/information_security_choose_title"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_title" />
+
+    <Button
+        android:id="@+id/btn_security_choose_set_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button"
+        android:text="@string/information_security_choose_set_question"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_button" />
+
+    <Button
+        android:id="@+id/btn_security_choose_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button"
+        android:text="@string/information_security_choose_password"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_button" />
+
+    <Button
+        android:id="@+id/btn_security_choose_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button"
+        android:text="@string/information_security_choose_question"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_button" />
+
+</LinearLayout>

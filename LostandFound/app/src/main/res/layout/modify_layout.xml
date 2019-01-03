@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_modify_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title"
+        android:gravity="center"
+        android:background="@color/style"
+        android:text="@string/information_modify_title"
+        android:textSize="@dimen/text_size_title"
+        android:textColor="@color/white"
+        android:layout_marginBottom="50dp"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_modify_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_height"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_below="@id/tv_modify_title">
+
+        <ImageView
+            android:layout_width="@dimen/imageView"
+            android:layout_height="@dimen/imageView"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/margin_tiny"
+            android:layout_marginLeft="@dimen/margin_tiny"
+            android:src="@drawable/ic_modify"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/login_account"/>
+
+        <EditText
+            android:id="@+id/et_modify_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/editText"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/line"
+            android:layout_marginStart="@dimen/editText_start"
+            android:layout_marginLeft="@dimen/editText_start"
+            android:background="@null"
+            android:hint="@string/information_modify_nickname_hint"
+            android:inputType="text"
+            android:maxLines="1"
+            android:maxLength="20"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray_deep"
+            android:textSize="@dimen/text_size_normal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/editText_start"
+            android:layout_marginLeft="@dimen/editText_start"
+            android:background="@color/style" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_height"
+        android:layout_marginTop="@dimen/input_margin"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_below="@id/rl_modify_nickname">
+
+        <ImageView
+            android:layout_width="@dimen/imageView"
+            android:layout_height="@dimen/imageView"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/margin_tiny"
+            android:layout_marginLeft="@dimen/margin_tiny"
+            android:src="@drawable/ic_modify"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/login_password"/>
+
+        <EditText
+            android:id="@+id/et_modify_contact_information"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/editText"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/line"
+            android:layout_marginStart="@dimen/editText_start"
+            android:layout_marginLeft="@dimen/editText_start"
+            android:background="@null"
+            android:hint="@string/information_modify_contact_information_hint"
+            android:inputType="text"
+            android:maxLines="1"
+            android:maxLength="20"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray_deep"
+            android:textSize="@dimen/text_size_normal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/editText_start"
+            android:layout_marginLeft="@dimen/editText_start"
+            android:background="@color/style" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_modify_commit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:background="@drawable/button"
+        android:paddingBottom="@dimen/margin_small"
+        android:paddingTop="@dimen/margin_small"
+        android:text="@string/information_modify_btn_commit"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

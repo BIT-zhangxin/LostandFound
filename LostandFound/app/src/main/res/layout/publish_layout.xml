@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_publish_event_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/publish_event_type"
+            android:textSize="@dimen/text_size_title"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_event_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_publish_event_type"
+            android:layout_marginStart="72dp"
+            android:layout_toEndOf="@id/tv_publish_event_type"
+            android:entries="@array/event_type">
+
+        </Spinner>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/tv_gray_normal"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_publish_object_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/publish_object_name"
+            android:textSize="@dimen/text_size_title"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"/>
+
+        <EditText
+            android:id="@+id/et_publish_object_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/tv_publish_object_name"
+            android:layout_marginStart="20dp"
+            android:inputType="text"
+            android:textSize="@dimen/text_size_normal"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/tv_gray_normal"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_publish_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/publish_location"
+            android:textSize="@dimen/text_size_title"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"/>
+
+        <EditText
+            android:id="@+id/et_publish_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/tv_publish_location"
+            android:layout_marginStart="20dp"
+            android:inputType="text"
+            android:textSize="@dimen/text_size_normal"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/tv_gray_normal"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_publish_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/publish_time"
+            android:textSize="@dimen/text_size_title"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"/>
+
+        <EditText
+            android:id="@+id/et_publish_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/tv_publish_time"
+            android:layout_marginStart="20dp"
+            android:inputType="text"
+            android:textSize="@dimen/text_size_normal"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/tv_gray_normal"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_publish_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/publish_description"
+            android:textSize="@dimen/text_size_title"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"/>
+
+        <EditText
+            android:id="@+id/et_publish_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/tv_publish_description"
+            android:layout_marginStart="20dp"
+            android:inputType="text"
+            android:textSize="@dimen/text_size_normal"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/tv_gray_normal"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_publish_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/publish_image"
+            android:textSize="@dimen/text_size_title"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_publish_image_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/tv_publish_image"
+            android:layout_marginStart="50dp"
+            android:text="@string/publish_image_hint"
+            android:textSize="@dimen/text_size_title"
+            android:textColor="@color/black"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/tv_gray_normal"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/btn_publish_publish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:background="@drawable/button"
+            android:paddingBottom="@dimen/margin_small"
+            android:paddingTop="@dimen/margin_small"
+            android:text="@string/publish_publish"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
