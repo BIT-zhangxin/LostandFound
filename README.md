@@ -8,3 +8,4 @@ Android Application of LostandFound
 数据库部署于阿里云的ECS云平台上（使用Linux系统）；  
 首页的apk是该项目的安卓安装包，下载导入手机即可使用；  
 本项目使用的阿里云ECS可能会在以后过期，所以应用的后端也将在届时停止服务。  
+ps：本项目直接克隆不可运行，只有LostandFound文件夹导入Android Studio项目才能运行（建本项目的时候不太会用github）
